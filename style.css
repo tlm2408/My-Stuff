@@ -1,0 +1,341 @@
+﻿@charset "utf-8";
+html {cursor: none}
+BODY 
+{background-color: #cacaca;  background-image: url("background.jpg"); cursor: none; overflow: hidden}
+
+.container {}
+
+.leftbox .focusable, .focusable {
+width: 200px;
+  height: 50px; line-height: 50px;}
+
+.rightbox .focusable {
+
+
+
+}
+
+
+.focusable:focus a:link {
+ 
+color : #eeeeee;
+background: linear-gradient(to bottom,#42a142 33%,#008a00 67%);
+}
+
+
+a.focusable:focus {
+color : #eeeeee;
+background: linear-gradient(to bottom,#42a142 33%,#008a00 67%);
+}
+
+
+
+div.label {
+}
+
+
+
+ul.checkbox   {
+  list-style: none;
+}
+
+ul.checkbox li input {width: 25px; height: 35px; vertical-align: middle;}
+
+ul.checkbox li {
+}
+
+
+ul.checkbox li.focus  {
+  background: linear-gradient(to bottom,#42a142 33%,#008a00 67%);
+
+}
+
+/* AUDIO PLAYLIST STYLE */
+ol {list-style: none; padding-left:0px; margin-top: 0px;}
+
+
+#songlist li.hilite{background:#ddd;}
+
+ol li a {
+	color: #eeeeee;
+	}
+
+ol li a:visited {
+color: #eeeeee;
+}
+
+ol li.song .name {
+float:left;
+}
+
+ol li.playing {
+padding-left: 10px;   background: linear-gradient(to bottom,#42a142 33%,#008a00 67%);}
+
+/* END AUDIO PLAYLIST */
+
+
+
+input[type=checkbox] {
+transform: scale(2);
+}
+
+
+
+input {
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  margin-right: 12px;
+  margin-left: 10px;
+  margin-top: 0px;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+label{
+color: #dddddd;
+}
+
+
+#date_time {height: 40px; font-size: 30px;}
+
+#pathname {float: right; color: #eeeeee; margin-right: 75px; font-family: "sans serif"; height: 30px; postion: absolute; bottom:0; padding-top: 0px; font-size: 30px; overflow: hidden; width: 850px;}
+
+.topbar {height: 35px; color: #dddddd; font-size: 20px;  position: relative;}
+.ico {width: 28px; float: left; padding-right: 10px; padding-left: 10px; padding-bottom: 0px; padding-top: 10px}
+
+
+/* --------------------- */
+#leftbox {
+width : 20%;
+font-size : 14px;
+float: left;
+}
+
+#leftbox ul {
+font-size: 26px;
+list-style : none;
+margin : 0;
+padding : 0;
+border : none;
+}
+
+#leftbox li {
+padding-bottom: 4px;
+margin : 0;
+font-family: "sans serif";
+}
+
+#leftbox li a {
+display : block;
+border-radius: 10px;
+background-color : #4c607f;
+color : #dddddd;
+text-decoration : none;
+width : 100%;
+padding-left: 10px;
+}
+
+
+
+/* ----------------------- */
+
+.playlistbutton {
+Background-color: #4c607f;
+border: 0px;
+width: 105%;
+font-family: "sans serif";
+border-radius: 10px;
+color: #dddddd;
+font-size: 26px;
+font-weight: bold;
+padding-left: 10px;
+margin: 0px;
+text-align: left;
+}
+
+
+
+.playlistbutton:focus {
+color : #eeeeee;
+background: linear-gradient(to bottom,#42a142 33%,#008a00 67%);
+}
+
+#playon {
+}
+
+#playoff {
+display: none;
+margin-top: 3px;
+}
+
+.selectbut {
+margin-top: 6px;
+}
+.playbut {
+margin-top: 2px;
+}
+
+.tablewrap {
+margin: 0px auto 0px auto; width: 105%; padding-top: 3px;
+}
+.table {
+}
+
+.row { 
+clear: both; 
+width: 100%;
+overflow: hidden; 
+padding: 0px;
+}
+
+.cell { 
+float: left; 
+width: 38px;  
+text-align: center;   
+font-size: 24px;
+margin: 3px;
+Background-color: #4c607f;
+border-radius: 10px;
+}
+
+
+.playalpha:focus {
+color : #eeeeee; padding: 11px; border-radius: 10px;
+background: linear-gradient(to bottom,#42a142 33%,#008a00 67%);
+}
+
+.plalpha:focus {
+color : #eeeeee; padding: 11px; border-radius: 10px;
+background: linear-gradient(to bottom,#42a142 33%,#008a00 67%);
+}
+
+
+.cell A:link {color: #eeeeee; text-decoration: none; font-weight: bold;}
+
+
+
+
+
+/* --------------------- */
+#rightbox {
+width : 70%;
+float: right;
+height: 560px;
+overflow: auto; 
+margin-right: 70px; 
+display: inline-block; 
+white-space: nowrap; 
+overflow-x: hidden; 
+background:rgba(0,0,0, 0.3);
+border: solid 1px #000000;
+/* overflow: -moz-scrollbars-none; */
+}
+
+#rightbox ul {
+list-style : none;
+margin : 0;
+padding : 0px;
+border : none;
+}
+
+#rightbox li {
+margin: 0;
+font-family: "sans serif";
+  font-weight: bold;
+font-size: 32px;
+width: 100%;
+padding-top: 0px;
+padding-bottom: 0px;
+border-bottom: solid 1px #000;
+}
+
+#rightbox li a:link {
+display : block;
+color : #dddddd;
+text-decoration : none;
+width : 100%;
+padding-left: 10px;
+cursor: none;
+}
+
+
+/* ------------------------- */
+
+
+
+#playlist {
+width : 70%;
+float: right;
+height: 620px;
+overflow: auto; 
+margin-right: 70px; 
+display: inline-block; 
+white-space: nowrap; 
+overflow-x: hidden; 
+background:rgba(0,0,0, 0.3);
+border: solid 1px #000000;
+overflow: -moz-scrollbars-no;
+display: none;
+}
+
+#playlist ul {
+list-style : none;
+margin : 0;
+padding : 0px;
+border : none;
+}
+
+#playlist li {
+margin: 0;
+font-family: "sans serif";
+font-size: 34px;
+font-weight: bold;
+width: 100%;
+padding-top: 5px;
+padding-bottom: 0px;
+border-bottom: solid 1px #000;
+}
+
+#playlist li a {
+display : block;
+color : #dddddd;
+text-decoration : none;
+width : 100%;
+padding-left: 10px;
+cursor: none;
+}
+
+textarea {
+display: none;
+}
+
+
+.filenametosaveas {
+display: none;
+}
+/* MOVIE INFO */
+#omdbform {display: none;}
+#containera {display: inline-block; padding-bottom: 0px; }
+
+.title {height: 65px; width: 260px; font-weight: bold; font-size: 24px; color: #eeeeee; border: solid 1px #000000; margin: 0px; text-align: center; background:rgba(0,0,0, 0.3); overflow: hidden; position:fixed; bottom:140px;}
+
+.poster {}
+
+.poster img {width: 240px; height: 350px; padding-top: 10px; padding-left:10px;}
+
+.plot {height: 100px; font-size: 28px; font-weight: bold; border: solid 1px #000000; width: 98%; padding-top: 0px; margin-bottom: 5px; margin-top: 150px; color: #eeeeee; vertical-align: bottom; clear: both; position:fixed;bottom:0; background:rgba(0,0,0, 0.3); overflow: hidden;}
+
+.year {width: 60px; color: #eeeeee; padding-left: 15px; font-size: 20px; font-weight: bold; position:fixed;bottom:115px;}
+
+.rated {color: #eeeeee; font-size: 20px; overflow: hidden; width: 115px; font-weight: bold; position: fixed; bottom:115px; padding-left: 120px; white-space: nowrap;}
+
+.plot:empty {
+   display: none;
+}
+.title:empty {
+   display: none;
+}
